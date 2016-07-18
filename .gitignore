@@ -1,0 +1,5 @@
+.idea/*
+.idea
+tests/*
+.ruby-gemset
+.ruby-version
