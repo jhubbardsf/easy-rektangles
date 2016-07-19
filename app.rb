@@ -3,8 +3,8 @@ print 'Type word, width, height (example: rekt, 1, 1): '
 s = gets.chomp
 s = s.split(',').map(&:strip)
 word = s[0]
-width = s[1]
-height = s[2]
+width = s[2]
+height = s[1]
 
 def make_horizontal(a, width, height)
   width.times do |iw|
